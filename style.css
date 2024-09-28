@@ -43,6 +43,13 @@
     font-size: 15px;
     border-radius: 5px;
     background-color: #E55473;
+    transition: 0.3s;
+}
+
+.banner-info button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .banner-image {
@@ -167,6 +174,12 @@
     font-size: 15px;
     border-radius: 5px;
     background-color: #E55473;
+    transition: 0.3s;
+}
+
+.discount .discount-info button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .discount .discount-image img{
@@ -202,9 +215,19 @@
     padding: 20px 0;
 }
 
+.instagram-image{
+    transition: 0.3s;
+}
+
+.instagram-image:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
 .instagram img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* ----------------------------------- subscribe -----------------------------------*/
@@ -244,7 +267,7 @@
 }
 
 .subscribe .subscribe-form input {
-    width: 700px;
+    width: 600px;
     border: none;
     outline: none;
     padding: 20px;
@@ -261,6 +284,12 @@
     font-size: 16px;
     border-radius: 5px;
     background-color: #E55473;
+    transition: 0.3s;
+}
+
+.subscribe button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 
